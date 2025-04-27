@@ -1,0 +1,41 @@
+# Ignore arquivos temporários do Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore arquivos de build
+bin/
+obj/
+out/
+
+# Ignore arquivos do sistema
+*.log
+*.DS_Store
+Thumbs.db
+
+# Ignore configurações locais
+appsettings.Development.json
+
+# Ignore pacotes do NuGet (caso esteja usando restore automático)
+packages/
+
+# Ignore publicação local
+publish/
+
+# Ignorar arquivos de IDE
+*.vscode/
+.idea/
+
+# Ambiente do Rider
+.idea/
+*.sln.iml
+
+# Backup de arquivos
+*.bak
+*.old
+*.tmp
+
+# Ignore arquivos de cache
+*.cache
